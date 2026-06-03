@@ -1,2 +1,2 @@
-public class COD {
+public class COD extends BankAccount {
 }
