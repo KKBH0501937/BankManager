@@ -12,7 +12,7 @@ public class Main {
         // --- Compte Courant ---
         try {
             CheckingAccount checkingAccount = new CheckingAccount();
-            checkingAccount.setAccount("CC-001");
+            checkingAccount.setAccount("CA-009");
             checkingAccount.setBalance(150000);
             checkingAccount.setLimit(50000);
 
@@ -28,7 +28,7 @@ public class Main {
         // --- Compte d'Épargne ---
         try {
             SavingsAccount savingsAccount = new SavingsAccount();
-            savingsAccount.setAccount("EP-002");
+            savingsAccount.setAccount("SA-009");
             savingsAccount.setBalance(500000);
 
 
@@ -44,7 +44,7 @@ public class Main {
         // --- Certificat de Dépôt ---
         try {
             COD cod = new COD();
-            cod.setAccount("COD-003");
+            cod.setAccount("COD-009");
             cod.setBalance(1000000);
 
 
